@@ -2,7 +2,7 @@ require("dotenv").config();
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
-const axios = require("axios")
+const axios = require("axios");
 
 const playlistUrl = process.env.PLAY_LIST_URL;
 const spotifyUrl = "https://open.spotify.com";
